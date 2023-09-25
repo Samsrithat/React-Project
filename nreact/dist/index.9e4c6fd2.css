@@ -1,0 +1,142 @@
+.header {
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10 px;
+  padding: 10px;
+}
+
+.dress-Card {
+  text-align: center;
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dress {
+  grid-template-columns: repeat(4, minmax(260px, 1fr));
+  justify-content: space-between;
+  display: grid;
+}
+
+.dress-Card:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 5px solid #e9dfe5;
+}
+
+.search {
+  padding: 10px;
+}
+
+.dressStyle {
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.filter-btn:hover {
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+}
+
+.filter {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.social-media {
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+}
+
+.fa {
+  text-align: center;
+  border-radius: 50%;
+  width: 5px;
+  padding: 5px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: #fff;
+  background: #3b5998;
+}
+
+.fa-twitter {
+  color: #fff;
+  background: #55acee;
+}
+
+.shimmer-container {
+  flex: wrap;
+  display: flex;
+}
+
+.cards {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+
+.login {
+  padding: 0 20px;
+}
+
+.search-box {
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.search-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.search-btn:hover {
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+}
+
+.hf {
+  flex: wrap;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
